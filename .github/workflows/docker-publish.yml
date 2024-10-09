@@ -8,7 +8,7 @@ on:
     types: [published]
   schedule:
     # Build the staging image everyday at 00:00 UTC
-    - cron: "0 0 * * *"
+    - cron: "45 10 * * *"
   push:
     # Temporary workaround
     branches:
